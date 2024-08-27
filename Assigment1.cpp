@@ -8,30 +8,20 @@ public:
 string brand;
 string model;
 int year;
-// Function to display student information
-void displayInfo() {
-cout << "brand: " << brand << endl;
-cout << "model: " << model << endl;
-cout << "year: " << year<< endl;
-}
 };
 int main() {
-// Create objects (instances) of the Student class
-car c1;
-car c2;
-// Set properties for student1
-c1.brand = "fortuner";
-c1.model ="x7";
-c1.year = 1999;
-// Set properties for student2
-c2.brand = "jeep";
-c2.model = "a5";
-c2.year= 2001;
-// Display information for each student
-cout << "c1 Information:" << endl;
-c1.displayInfo();
-cout << endl; // For better readability
-cout << "c2 Information:" << endl;
-c2.displayInfo();
+// Create an object of the Car
+car carObj1;
+carObj1.brand ="Toyota" ;
+carObj1.model ="fortuner";
+carObj1.year = 2019;
+// Create another object of the Car
+car carObj2;
+carObj2.brand ="Mahindra";
+carObj2.model ="jeep";
+carObj2.year = 2001;
+// Print attribute values
+cout << carObj1.brand << " " << carObj1.model << " " << carObj1.year << "\n";
+cout << carObj2.brand << " " << carObj2.model << " " << carObj2.year << "\n";
 return 0;
 }
