@@ -19,9 +19,9 @@ int main() {
     double totalCost = totalNotebookCost + totalPenCost;
 
     // Display the results
-    std::cout << "Total cost of notebooks: Rs. " << totalNotebookCost << std::endl;
-    std::cout << "Total cost of pens: Rs. " << totalPenCost << std::endl;
-    std::cout << "Total cost of all supplies: Rs. " << totalCost << std::endl;
+    cout << "Total cost of notebooks: Rs. " << totalNotebookCost << std::endl;
+    cout << "Total cost of pens: Rs. " << totalPenCost << std::endl;
+    cout << "Total cost of all supplies: Rs. " << totalCost << std::endl;
 
 return 0;
 }
